@@ -58,7 +58,7 @@ const SignInForm = () => {
   return (
     <div>
       <p className="uppercase font-semibold mb-2">start for free</p>
-      <h1 className="text-3xl font-bold mb-3">Login to Gantabya</h1>
+      <h1 className="text-3xl font-bold mb-3">Login</h1>
       <Form {...form}>
         <form className="space-y-4" onSubmit={form.handleSubmit(onSubmit)}>
           <FormField
